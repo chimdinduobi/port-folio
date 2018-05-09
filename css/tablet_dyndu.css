@@ -1,0 +1,203 @@
+body{
+	margin: 0;
+	text-align: center;
+	background-color: darkgrey;
+}
+#main-grid{
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 350px 350px;
+	text-align: center;
+	background-color: darkgrey;
+}
+#main-grid div{
+background-color: darkgrey;
+}
+#main-grid div:nth-child(even){
+	background-color:brown;
+}
+.grid1{
+	display: none;
+}
+
+#grid2{
+	display: grid;
+	height: 50vh;
+	grid-template-columns: repeat(8, 1fr);
+	grid-gap: 3px;
+	transform: rotateZ(45deg) scale(0.7r);
+	/*margin: 0 auto;*/
+}
+#grid2 div{
+	background-color: brown;
+}
+#grid2 div:nth-child(even){
+	background-color: brown;
+}
+.grid21{
+	grid-column: 1/5;
+}
+.grid22{
+	grid-column: 5/10;
+}
+.grid23{
+	grid-column: 1/2;
+}
+.grid24{
+	grid-column: 2/8;
+}
+.grid24 b{
+	font-size: 14px;
+	margin-top:5px; 
+}
+.grid25{
+	grid-column: 8/10;
+}
+.grid26{
+	grid-column: 1/5;
+}
+.grid26 b{
+	color: brown;
+	font-size: 12px;
+}
+.grid26 b:hover{
+	padding-top: 10px;
+	color: darkgrey;
+	font-size: 14px;
+}
+.grid27{
+	grid-column: 5/10;
+}
+.grid27 b{
+	color: brown;
+	font-size: 12px;
+}
+.grid27 b:hover{
+	padding-top: 10px;
+	color: darkgrey;
+	font-size: 14px;
+}
+.grid28{
+	grid-column: 1/2;
+}
+.grid29{
+	grid-column: 2/8;
+}
+.grid29 b{
+	color: brown;
+	font-size: 12px;
+}
+.grid29 b:hover{
+	padding-top: 10px;
+	color: darkgrey;
+	font-size: 14px;
+}
+.grid210{
+	grid-column: 8/10;
+}
+.grid211{
+	grid-column: 1/5;
+}
+.grid211 b{
+	color: brown;
+	font-size: 12px;
+}
+.grid211 b:hover{
+	padding-top: 10px;
+	color: darkgrey;
+	font-size: 14px;
+}
+.grid212{
+	grid-column: 5/10;
+}
+.grid212 b{
+	color: brown;
+	font-size: 12px;
+}
+.grid212 b:hover{
+	padding-top: 10px;
+	color: darkgrey;
+	font-size: 14px;
+}
+.grid213{
+	grid-column: 1/2;
+}
+.grid214{
+	grid-column: 2/8;
+}
+.grid215{
+	grid-column: 8/10;
+}
+.grid216{
+	grid-column: 1/5;
+}
+.grid216 b{
+	color: brown;
+	font-size: 12px;
+}
+.grid216 b:hover{
+	padding-top: 10px;
+	color: darkgrey;
+	font-size: 14px;
+}
+.grid217{
+	grid-column: 5/10;
+}
+.grid217 b{
+	color: brown;
+	font-size: 12px;
+}
+.grid217 b:hover{
+	padding-top: 10px;
+	color: darkgrey;
+	font-size: 14px;
+}
+.grid218{
+	grid-column: 1/2;
+}
+.grid219{
+	grid-column: 2/8;
+}
+.grid219 b{
+	color: brown;
+	font-size: 12px;
+}
+.grid219 b:hover{
+	padding-top: 10px;
+	color: darkgrey;
+	font-size: 14px;
+}
+.grid220{
+	grid-column: 8/10;
+}
+.grid221{
+	grid-column: 1/5;
+}
+.grid222{
+	grid-column: 5/10;
+}
+.grid3{
+	width: 30px;
+}
+.grid4{
+	background-color: brown;
+	font-size: 14px;
+}
+#motto{
+	display: none;
+}
+.grid5{
+}
+.grid5 #who{
+	display: none;
+}
+.grid5 #who2{
+	display: none;
+}
+.grid6{
+	background-color: brown;
+}
+.grid6 img{
+	margin-top: 20px;
+	border-radius: 200px;
+}
